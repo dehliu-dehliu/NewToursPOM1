@@ -27,7 +27,7 @@ public class WelcomePageTest extends Page{
 		  TourWelcomePage welcome=new TourWelcomePage();
 		  System.out.println("Welcome page is initiated");
 		  welcome.linkCount();
-		  System.out.println("done link count");
+		  System.out.println("Done link count");
 		  Assert.assertEquals(driver.getTitle(), welcome.expected);
 		  System.out.println("------welcome page link test ends");
 		  //test.log(LogStatus.INFO, "------welcome page link test ends");

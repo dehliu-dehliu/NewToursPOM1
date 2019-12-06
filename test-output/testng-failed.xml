@@ -11,19 +11,4 @@
       <class name="com.testcases.ToursSignonTest"/>
     </classes>
   </test> <!-- Test -->
-  <test name="Test(failed)" parallel="tests">
-    <classes>
-      <class name="com.testcases.ToursSignonTest">
-        <methods>
-          <include name="setUp"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- com.testcases.ToursSignonTest -->
-      <class name="com.testcases.ToursReserveFlightsTest">
-        <methods>
-          <include name="reserveFlightsTest"/>
-        </methods>
-      </class> <!-- com.testcases.ToursReserveFlightsTest -->
-    </classes>
-  </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
