@@ -2,50 +2,50 @@
 <testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="22631" started-at="2019-12-06T20:49:05Z" finished-at="2019-12-06T20:49:27Z">
+  <suite name="Suite" duration-ms="22023" started-at="2019-12-06T22:06:11Z" finished-at="2019-12-06T22:06:33Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="22631" started-at="2019-12-06T20:49:05Z" finished-at="2019-12-06T20:49:27Z">
+    <test name="Test" duration-ms="22023" started-at="2019-12-06T22:06:11Z" finished-at="2019-12-06T22:06:33Z">
       <class name="com.testcases.WelcomePageTest">
-        <test-method status="PASS" signature="welcomePageLinks()[pri:0, instance:com.testcases.WelcomePageTest@4bbfb90a]" name="welcomePageLinks" duration-ms="1415" started-at="2019-12-06T20:49:10Z" finished-at="2019-12-06T20:49:11Z">
+        <test-method status="PASS" signature="welcomePageLinks()[pri:0, instance:com.testcases.WelcomePageTest@11438d26]" name="welcomePageLinks" duration-ms="1373" started-at="2019-12-06T22:06:16Z" finished-at="2019-12-06T22:06:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- welcomePageLinks -->
       </class> <!-- com.testcases.WelcomePageTest -->
       <class name="com.testcases.ToursSignonTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.testcases.ToursSignonTest@a7e666]" name="setUp" is-config="true" duration-ms="5420" started-at="2019-12-06T20:49:05Z" finished-at="2019-12-06T20:49:10Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.testcases.ToursSignonTest@4232c52b]" name="setUp" is-config="true" duration-ms="5282" started-at="2019-12-06T22:06:11Z" finished-at="2019-12-06T22:06:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="signOnTest()[pri:1, instance:com.testcases.ToursSignonTest@a7e666]" name="signOnTest" duration-ms="6846" started-at="2019-12-06T20:49:11Z" finished-at="2019-12-06T20:49:18Z">
+        <test-method status="PASS" signature="signOnTest()[pri:1, instance:com.testcases.ToursSignonTest@4232c52b]" name="signOnTest" duration-ms="6765" started-at="2019-12-06T22:06:17Z" finished-at="2019-12-06T22:06:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signOnTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testcases.ToursSignonTest@a7e666]" name="tearDown" is-config="true" duration-ms="1433" started-at="2019-12-06T20:49:26Z" finished-at="2019-12-06T20:49:27Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testcases.ToursSignonTest@4232c52b]" name="tearDown" is-config="true" duration-ms="1372" started-at="2019-12-06T22:06:31Z" finished-at="2019-12-06T22:06:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.testcases.ToursSignonTest -->
       <class name="com.testcases.ToursFindFlightsTest">
-        <test-method status="PASS" signature="findFlightsTest()[pri:3, instance:com.testcases.ToursFindFlightsTest@30b8a058]" name="findFlightsTest" duration-ms="2349" started-at="2019-12-06T20:49:18Z" finished-at="2019-12-06T20:49:21Z">
+        <test-method status="PASS" signature="findFlightsTest()[pri:3, instance:com.testcases.ToursFindFlightsTest@305fd85d]" name="findFlightsTest" duration-ms="2307" started-at="2019-12-06T22:06:24Z" finished-at="2019-12-06T22:06:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- findFlightsTest -->
       </class> <!-- com.testcases.ToursFindFlightsTest -->
-      <class name="com.testcases.ToursBookFlightsTest">
-        <test-method status="PASS" signature="bookFlightsTest()[pri:4, instance:com.testcases.ToursBookFlightsTest@68bbe345]" name="bookFlightsTest" duration-ms="3525" started-at="2019-12-06T20:49:22Z" finished-at="2019-12-06T20:49:26Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- bookFlightsTest -->
-      </class> <!-- com.testcases.ToursBookFlightsTest -->
       <class name="com.testcases.ToursReserveFlightsTest">
-        <test-method status="PASS" signature="reserveFlightsTest()[pri:3, instance:com.testcases.ToursReserveFlightsTest@7494e528]" name="reserveFlightsTest" duration-ms="1569" started-at="2019-12-06T20:49:21Z" finished-at="2019-12-06T20:49:22Z">
+        <test-method status="PASS" signature="reserveFlightsTest()[pri:3, instance:com.testcases.ToursReserveFlightsTest@458c1321]" name="reserveFlightsTest" duration-ms="1553" started-at="2019-12-06T22:06:27Z" finished-at="2019-12-06T22:06:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reserveFlightsTest -->
       </class> <!-- com.testcases.ToursReserveFlightsTest -->
+      <class name="com.testcases.ToursBookFlightsTest">
+        <test-method status="PASS" signature="bookFlightsTest()[pri:4, instance:com.testcases.ToursBookFlightsTest@1877ab81]" name="bookFlightsTest" duration-ms="3292" started-at="2019-12-06T22:06:28Z" finished-at="2019-12-06T22:06:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bookFlightsTest -->
+      </class> <!-- com.testcases.ToursBookFlightsTest -->
       <class name="com.testcases.ToursConfirmBookFlightsTest">
-        <test-method status="PASS" signature="confirmBookFlightsTest()[pri:5, instance:com.testcases.ToursConfirmBookFlightsTest@7c29daf3]" name="confirmBookFlightsTest" duration-ms="49" started-at="2019-12-06T20:49:26Z" finished-at="2019-12-06T20:49:26Z">
+        <test-method status="PASS" signature="confirmBookFlightsTest()[pri:5, instance:com.testcases.ToursConfirmBookFlightsTest@34cd072c]" name="confirmBookFlightsTest" duration-ms="40" started-at="2019-12-06T22:06:31Z" finished-at="2019-12-06T22:06:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- confirmBookFlightsTest -->

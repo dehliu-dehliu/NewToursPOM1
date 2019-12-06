@@ -29,7 +29,7 @@ public class Page {
 	 */
 	
 	public static WebDriver driver;
-	public static Logger log = Logger.getLogger("NTLogger");
+	public static Logger log = Logger.getLogger("MLogger");
 //	public static ExcelReader excel = new ExcelReader(
 //			System.getProperty("user.dir") + "\\src\\test\\resources\\excel\\testdata.xlsx");
 	public static WebDriverWait wait;

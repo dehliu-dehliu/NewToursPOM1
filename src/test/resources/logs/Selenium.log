@@ -1,4 +1,17 @@
-10:32:00,625 DEBUG NewToursLogger:34 - ToursSignon Test started
-10:32:04,544 DEBUG NewToursLogger:47 - Launching Chrome Browser
-10:32:33,231 DEBUG NewToursLogger:87 - The flight search criteria submitted
-10:32:38,236 DEBUG NewToursLogger:67 - findFlightsTest ended
+17:06:14,427 DEBUG MLogger:47 - Launching Chrome Browser
+17:06:16,563 DEBUG MLogger:25 - ------In setUp method
+17:06:16,584 DEBUG MLogger:24 - ------In welcomePageLinks method
+17:06:17,956 DEBUG MLogger:34 - ------welcome page link test ends
+17:06:17,956 DEBUG MLogger:33 - ------In signOnTest method
+17:06:24,721 DEBUG MLogger:47 - ToursSignon Test ended
+17:06:24,722 DEBUG MLogger:23 - ------In findFlightsTest method
+17:06:27,012 DEBUG MLogger:87 - The flight search criteria submitted
+17:06:27,028 DEBUG MLogger:34 - findFlightsTest ended
+17:06:27,031 DEBUG MLogger:25 - ------In findFlightsTest method
+17:06:28,584 DEBUG MLogger:36 - findFlightsTest ended
+17:06:28,585 DEBUG MLogger:25 - ------In bookFlightsTest method
+17:06:31,877 DEBUG MLogger:37 - findFlightsTest ended
+17:06:31,878 DEBUG MLogger:26 - ------In ConfirmBookFlightsTest method
+17:06:31,917 DEBUG MLogger:34 - findFlightsTest ended
+17:06:31,918 DEBUG MLogger:55 - ------In tearDown method
+17:06:33,290 DEBUG MLogger:56 - Closing Browser

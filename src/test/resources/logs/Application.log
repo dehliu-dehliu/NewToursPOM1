@@ -1,4 +1,17 @@
-05/12/2019 10:32:00 NewToursLogger ToursSignon Test started
-05/12/2019 10:32:04 NewToursLogger Launching Chrome Browser
-05/12/2019 10:32:33 NewToursLogger The flight search criteria submitted
-05/12/2019 10:32:38 NewToursLogger findFlightsTest ended
+06 Dec 2019 17:06:14,427 MLogger Launching Chrome Browser
+06 Dec 2019 17:06:16,563 MLogger ------In setUp method
+06 Dec 2019 17:06:16,584 MLogger ------In welcomePageLinks method
+06 Dec 2019 17:06:17,956 MLogger ------welcome page link test ends
+06 Dec 2019 17:06:17,956 MLogger ------In signOnTest method
+06 Dec 2019 17:06:24,721 MLogger ToursSignon Test ended
+06 Dec 2019 17:06:24,722 MLogger ------In findFlightsTest method
+06 Dec 2019 17:06:27,012 MLogger The flight search criteria submitted
+06 Dec 2019 17:06:27,028 MLogger findFlightsTest ended
+06 Dec 2019 17:06:27,031 MLogger ------In findFlightsTest method
+06 Dec 2019 17:06:28,584 MLogger findFlightsTest ended
+06 Dec 2019 17:06:28,585 MLogger ------In bookFlightsTest method
+06 Dec 2019 17:06:31,877 MLogger findFlightsTest ended
+06 Dec 2019 17:06:31,878 MLogger ------In ConfirmBookFlightsTest method
+06 Dec 2019 17:06:31,917 MLogger findFlightsTest ended
+06 Dec 2019 17:06:31,918 MLogger ------In tearDown method
+06 Dec 2019 17:06:33,290 MLogger Closing Browser
