@@ -11,7 +11,7 @@ import com.utilities.Screenshot;
 
 public class TourReserveFlightsPage extends Page {
 
-	public String nextExpected = "Book a Flight: Mercury Tours ---";
+	public String nextExpected = "Book a Flight: Mercury Tours";
 		
 	public TourReserveFlightsPageLocators reserveflights;
 	
