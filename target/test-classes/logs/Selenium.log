@@ -1,0 +1,4 @@
+10:32:00,625 DEBUG NewToursLogger:34 - ToursSignon Test started
+10:32:04,544 DEBUG NewToursLogger:47 - Launching Chrome Browser
+10:32:33,231 DEBUG NewToursLogger:87 - The flight search criteria submitted
+10:32:38,236 DEBUG NewToursLogger:67 - findFlightsTest ended
