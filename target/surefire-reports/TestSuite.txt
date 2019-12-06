@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 6, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 24.15 s <<< FAILURE! - in TestSuite
-com.testcases.ToursReserveFlightsTest.reserveFlightsTest  Time elapsed: 1.567 s  <<< FAILURE!
+Tests run: 6, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 26.914 s <<< FAILURE! - in TestSuite
+com.testcases.ToursReserveFlightsTest.reserveFlightsTest  Time elapsed: 1.564 s  <<< FAILURE!
 java.lang.AssertionError: expected [Book a Flight: Mercury Tours ---] but found [Book a Flight: Mercury Tours]
 	at com.testcases.ToursReserveFlightsTest.reserveFlightsTest(ToursReserveFlightsTest.java:34)
 

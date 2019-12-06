@@ -9,7 +9,6 @@ import java.util.Hashtable;
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
-import org.testng.annotations.DataProvider;
 
 import com.base.Page;
 
@@ -32,6 +31,7 @@ public class Utilities extends Page {
 
 	}
 
+	/*
 	@DataProvider(name="dp")
 	public Object[][] getData(Method m) {
 
@@ -59,7 +59,7 @@ public class Utilities extends Page {
 		return data;
 
 	}
-	
+	*/
 	
 	
 	

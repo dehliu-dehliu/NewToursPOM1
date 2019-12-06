@@ -14,7 +14,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
 import com.relevantcodes.extentreports.LogStatus;
-import com.utilities.ExcelReader;
+//import com.utilities.ExcelReader;
 import com.utilities.ExtentManager;
 
 
@@ -30,8 +30,8 @@ public class Page {
 	
 	public static WebDriver driver;
 	public static Logger log = Logger.getLogger("NTLogger");
-	public static ExcelReader excel = new ExcelReader(
-			System.getProperty("user.dir") + "\\src\\test\\resources\\excel\\testdata.xlsx");
+//	public static ExcelReader excel = new ExcelReader(
+//			System.getProperty("user.dir") + "\\src\\test\\resources\\excel\\testdata.xlsx");
 	public static WebDriverWait wait;
 	public ExtentReports rep = ExtentManager.getInstance();
 	public static ExtentTest test;
