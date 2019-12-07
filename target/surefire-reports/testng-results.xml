@@ -2,50 +2,50 @@
 <testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="22023" started-at="2019-12-06T22:06:11Z" finished-at="2019-12-06T22:06:33Z">
+  <suite name="Suite" duration-ms="21950" started-at="2019-12-07T00:12:59Z" finished-at="2019-12-07T00:13:21Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="22023" started-at="2019-12-06T22:06:11Z" finished-at="2019-12-06T22:06:33Z">
+    <test name="Test" duration-ms="21950" started-at="2019-12-07T00:12:59Z" finished-at="2019-12-07T00:13:21Z">
       <class name="com.testcases.WelcomePageTest">
-        <test-method status="PASS" signature="welcomePageLinks()[pri:0, instance:com.testcases.WelcomePageTest@11438d26]" name="welcomePageLinks" duration-ms="1373" started-at="2019-12-06T22:06:16Z" finished-at="2019-12-06T22:06:17Z">
+        <test-method status="PASS" signature="welcomePageLinks()[pri:0, instance:com.testcases.WelcomePageTest@11438d26]" name="welcomePageLinks" duration-ms="1256" started-at="2019-12-07T00:13:04Z" finished-at="2019-12-07T00:13:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- welcomePageLinks -->
       </class> <!-- com.testcases.WelcomePageTest -->
       <class name="com.testcases.ToursSignonTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.testcases.ToursSignonTest@4232c52b]" name="setUp" is-config="true" duration-ms="5282" started-at="2019-12-06T22:06:11Z" finished-at="2019-12-06T22:06:16Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.testcases.ToursSignonTest@4232c52b]" name="setUp" is-config="true" duration-ms="5299" started-at="2019-12-07T00:12:59Z" finished-at="2019-12-07T00:13:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="signOnTest()[pri:1, instance:com.testcases.ToursSignonTest@4232c52b]" name="signOnTest" duration-ms="6765" started-at="2019-12-06T22:06:17Z" finished-at="2019-12-06T22:06:24Z">
+        <test-method status="PASS" signature="signOnTest()[pri:1, instance:com.testcases.ToursSignonTest@4232c52b]" name="signOnTest" duration-ms="6688" started-at="2019-12-07T00:13:05Z" finished-at="2019-12-07T00:13:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signOnTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testcases.ToursSignonTest@4232c52b]" name="tearDown" is-config="true" duration-ms="1372" started-at="2019-12-06T22:06:31Z" finished-at="2019-12-06T22:06:33Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testcases.ToursSignonTest@4232c52b]" name="tearDown" is-config="true" duration-ms="1369" started-at="2019-12-07T00:13:19Z" finished-at="2019-12-07T00:13:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.testcases.ToursSignonTest -->
       <class name="com.testcases.ToursFindFlightsTest">
-        <test-method status="PASS" signature="findFlightsTest()[pri:3, instance:com.testcases.ToursFindFlightsTest@305fd85d]" name="findFlightsTest" duration-ms="2307" started-at="2019-12-06T22:06:24Z" finished-at="2019-12-06T22:06:27Z">
+        <test-method status="PASS" signature="findFlightsTest()[pri:3, instance:com.testcases.ToursFindFlightsTest@305fd85d]" name="findFlightsTest" duration-ms="2257" started-at="2019-12-07T00:13:12Z" finished-at="2019-12-07T00:13:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- findFlightsTest -->
       </class> <!-- com.testcases.ToursFindFlightsTest -->
       <class name="com.testcases.ToursReserveFlightsTest">
-        <test-method status="PASS" signature="reserveFlightsTest()[pri:3, instance:com.testcases.ToursReserveFlightsTest@458c1321]" name="reserveFlightsTest" duration-ms="1553" started-at="2019-12-06T22:06:27Z" finished-at="2019-12-06T22:06:28Z">
+        <test-method status="PASS" signature="reserveFlightsTest()[pri:3, instance:com.testcases.ToursReserveFlightsTest@458c1321]" name="reserveFlightsTest" duration-ms="1539" started-at="2019-12-07T00:13:14Z" finished-at="2019-12-07T00:13:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reserveFlightsTest -->
       </class> <!-- com.testcases.ToursReserveFlightsTest -->
       <class name="com.testcases.ToursBookFlightsTest">
-        <test-method status="PASS" signature="bookFlightsTest()[pri:4, instance:com.testcases.ToursBookFlightsTest@1877ab81]" name="bookFlightsTest" duration-ms="3292" started-at="2019-12-06T22:06:28Z" finished-at="2019-12-06T22:06:31Z">
+        <test-method status="PASS" signature="bookFlightsTest()[pri:4, instance:com.testcases.ToursBookFlightsTest@1877ab81]" name="bookFlightsTest" duration-ms="3444" started-at="2019-12-07T00:13:16Z" finished-at="2019-12-07T00:13:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bookFlightsTest -->
       </class> <!-- com.testcases.ToursBookFlightsTest -->
       <class name="com.testcases.ToursConfirmBookFlightsTest">
-        <test-method status="PASS" signature="confirmBookFlightsTest()[pri:5, instance:com.testcases.ToursConfirmBookFlightsTest@34cd072c]" name="confirmBookFlightsTest" duration-ms="40" started-at="2019-12-06T22:06:31Z" finished-at="2019-12-06T22:06:31Z">
+        <test-method status="PASS" signature="confirmBookFlightsTest()[pri:5, instance:com.testcases.ToursConfirmBookFlightsTest@34cd072c]" name="confirmBookFlightsTest" duration-ms="46" started-at="2019-12-07T00:13:19Z" finished-at="2019-12-07T00:13:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- confirmBookFlightsTest -->

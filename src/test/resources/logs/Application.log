@@ -1,17 +1,17 @@
-06 Dec 2019 17:06:14,427 MLogger Launching Chrome Browser
-06 Dec 2019 17:06:16,563 MLogger ------In setUp method
-06 Dec 2019 17:06:16,584 MLogger ------In welcomePageLinks method
-06 Dec 2019 17:06:17,956 MLogger ------welcome page link test ends
-06 Dec 2019 17:06:17,956 MLogger ------In signOnTest method
-06 Dec 2019 17:06:24,721 MLogger ToursSignon Test ended
-06 Dec 2019 17:06:24,722 MLogger ------In findFlightsTest method
-06 Dec 2019 17:06:27,012 MLogger The flight search criteria submitted
-06 Dec 2019 17:06:27,028 MLogger findFlightsTest ended
-06 Dec 2019 17:06:27,031 MLogger ------In findFlightsTest method
-06 Dec 2019 17:06:28,584 MLogger findFlightsTest ended
-06 Dec 2019 17:06:28,585 MLogger ------In bookFlightsTest method
-06 Dec 2019 17:06:31,877 MLogger findFlightsTest ended
-06 Dec 2019 17:06:31,878 MLogger ------In ConfirmBookFlightsTest method
-06 Dec 2019 17:06:31,917 MLogger findFlightsTest ended
-06 Dec 2019 17:06:31,918 MLogger ------In tearDown method
-06 Dec 2019 17:06:33,290 MLogger Closing Browser
+06 Dec 2019 19:16:05,933 NTLogger Launching Chrome Browser
+06 Dec 2019 19:16:08,048 NTLogger ------In setUp method
+06 Dec 2019 19:16:08,054 NTLogger ------In welcomePageLinks method
+06 Dec 2019 19:16:09,565 NTLogger welcome page link test ends
+06 Dec 2019 19:16:09,565 NTLogger ------In signOnTest method
+06 Dec 2019 19:16:17,029 NTLogger ToursSignon Test ended
+06 Dec 2019 19:16:17,032 NTLogger ------In findFlightsTest method
+06 Dec 2019 19:16:19,397 NTLogger The flight search criteria submitted
+06 Dec 2019 19:16:19,413 NTLogger findFlightsTest ended
+06 Dec 2019 19:16:19,416 NTLogger ------In reserveFlightsTest method
+06 Dec 2019 19:16:21,188 NTLogger reserveFlightsTest ended
+06 Dec 2019 19:16:21,190 NTLogger ------In bookFlightsTest method
+06 Dec 2019 19:16:25,453 NTLogger bookFlightsTest ended
+06 Dec 2019 19:16:25,455 NTLogger ------In ConfirmBookFlightsTest method
+06 Dec 2019 19:16:25,495 NTLogger confirmBookFlightsTest ended
+06 Dec 2019 19:16:25,497 NTLogger ------In tearDown method
+06 Dec 2019 19:16:26,928 NTLogger Closing Browser

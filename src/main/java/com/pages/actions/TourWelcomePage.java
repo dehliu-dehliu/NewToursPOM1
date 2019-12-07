@@ -1,12 +1,5 @@
 package com.pages.actions;
 
-import java.util.List;
-import java.util.concurrent.TimeUnit;
-
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.pagefactory.AjaxElementLocatorFactory;
 
@@ -33,19 +26,16 @@ public class TourWelcomePage extends Page {
 		  System.out.println("Totle links on the NewTours Home page is "+i);
 		  //test.log(LogStatus.INFO, "Totle links on the NewTours Home page is "+i); 
 		  //log.debug("Totle links on the NewTours Home page is "+i);
-		  String link;
-		  String linkTxt;
+
 		  for (int j=0; j<i; j++){
-				link = welcome.links.get(j).getAttribute("href");
+
 				//Print out all links
-				System.out.println("Link "+(j+1)+": "+link);
+				System.out.println("Link"+(j+1)+" for: "+welcome.links.get(j).getText() 
+						+ " ------ "+welcome.links.get(j).getAttribute("href"));
 				//test.log(LogStatus.INFO, "Link "+(j+1)+": "+link); 
 				//log.debug("Link "+(j+1)+": "+link);
 				//Navigate to each of the links
-				linkTxt = welcome.links.get(j).getText();
-				System.out.println("``````The link Text is: "+linkTxt);
-				//test.log(LogStatus.INFO, "``````The link Text is: "+linkTxt); 
-				//log.debug("``````The link Text is: "+linkTxt);
+
 //				driver.navigate().to(link);
 		  }
 	}

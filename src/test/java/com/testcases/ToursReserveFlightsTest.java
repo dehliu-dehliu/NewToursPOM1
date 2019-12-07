@@ -21,8 +21,8 @@ public class ToursReserveFlightsTest extends Page{
   
 	@Test(priority =3)
 	public void reserveFlightsTest() throws Exception {
-		System.out.println("------In findFlightsTest method");
-		log.debug("------In findFlightsTest method");
+		System.out.println("------In reserveFlightsTest method");
+		log.debug("------In reserveFlightsTest method");
 		
 		TourReserveFlightsPage reserveflights =new TourReserveFlightsPage();
 		System.out.println("reserveFlights page is initiated");
@@ -33,7 +33,7 @@ public class ToursReserveFlightsTest extends Page{
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		Assert.assertEquals(driver.getTitle(), reserveflights.nextExpected);
 		//test.log(LogStatus.INFO, "ToursSignon Test ended");
-		log.debug("findFlightsTest ended");
+		log.debug("reserveFlightsTest ended");
 
 	}
 

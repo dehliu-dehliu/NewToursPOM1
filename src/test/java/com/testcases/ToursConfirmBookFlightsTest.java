@@ -31,7 +31,7 @@ public class ToursConfirmBookFlightsTest extends Page{
 	  	driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		Assert.assertEquals(confirmflights.confirmBookFlights(), confirmflights.nextExpected);
 		//test.log(LogStatus.INFO, "ToursSignon Test ended");
-		log.debug("findFlightsTest ended");
+		log.debug("confirmBookFlightsTest ended");
 	}
 
 }

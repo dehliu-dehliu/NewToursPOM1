@@ -29,9 +29,9 @@ public class WelcomePageTest extends Page{
 		  welcome.linkCount();
 		  System.out.println("done link count");
 		  Assert.assertEquals(driver.getTitle(), welcome.expected);
-		  System.out.println("------welcome page link test ends");
+		  System.out.println("welcome page link test ends");
 		  //test.log(LogStatus.INFO, "------welcome page link test ends");
-		  log.debug("------welcome page link test ends");
+		  log.debug("welcome page link test ends");
 
 	  }
 
